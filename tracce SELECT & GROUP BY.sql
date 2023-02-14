@@ -32,6 +32,9 @@ WHERE `date` = '2020-06-20' AND TIME(`hour`) >= '14:00:00';
 
 -- 6. Selezionare tutti i corsi di laurea magistrale (38)
 
+SELECT `name`, `level`
+FROM `degrees`
+WHERE `level` = 'magistrale';
 
 -- 7. Da quanti dipartimenti è composta l'università? (12)
 
